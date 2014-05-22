@@ -1,0 +1,1 @@
+<?php	session_start(); 		if ( $_SESSION['loggedin'] != true ) {			$host = $_SERVER['HTTP_HOST'];			$uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');			$extra = 'log-in.php';		header( "Location: http://$host$uri/$extra" );		exit();	}?>

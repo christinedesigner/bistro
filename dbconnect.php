@@ -1,0 +1,1 @@
+<?php	mysql_connect( "localhost", "ccdesig4_carlson", "Laguna@12" ) or die ( "Unable to connect to database!" );    	mysql_select_db( "ccdesig4_WNM" ); ?>
